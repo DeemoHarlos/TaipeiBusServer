@@ -10,7 +10,7 @@ var database = argv.d || 'mongodb://127.0.0.1/TaipeiBus'
 
 // Model Declaration, if unused we use plain 'require'
 require('./metro/model/metroStop')
-require('./metro/model/metroSection')
+//require('./metro/model/metroSection')
 require('./metro/model/metroRoute')
 
 // mongoose.Promise = global.Promise
@@ -34,7 +34,7 @@ app.get('/', function (req, res) {
 
 // Routing a checking function to verify token
 app.use('/metroStop'   , require('./metro/metroStop'))
-app.use('/metroSection', require('./metro/metroSection'))
+//app.use('/metroSection', require('./metro/metroSection'))
 app.use('/metroRoute'  , require('./metro/metroRoute'))
 
 app.listen(port, ()=>{
