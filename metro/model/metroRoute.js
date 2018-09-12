@@ -9,6 +9,7 @@ var metroRouteSchema = new Schema({
 	routes: [{
 		routeName: String,
 		stops: [{
+			_id: {id:false}
 			stopId: Schema.Types.ObjectId
 		}]
 	}]

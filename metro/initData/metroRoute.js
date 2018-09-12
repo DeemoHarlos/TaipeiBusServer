@@ -289,7 +289,7 @@ var metroRoute = [
 		"routeName": "往小碧潭", "stops": [
 			{"stopId":  53},
 			{"stopId":  54}]},{
-		"routeName": "往七張", "sections":[
+		"routeName": "往七張", "stops":[
 			{"stopId":  54},
 			{"stopId":  53}]}]}
 ]

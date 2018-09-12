@@ -14,7 +14,7 @@ metroRoute.forEach((e,i,a)=>{
 		e.routes.forEach((re,ri,ra)=>{
 			re.stops.forEach((se,si,sa)=>{
 				var stop = stopData.find(ele=>{return ele.id == se.stopId})
-				sa[si] = stop._id
+				sa[si].stopId = stop._id
 			})
 		})
 
