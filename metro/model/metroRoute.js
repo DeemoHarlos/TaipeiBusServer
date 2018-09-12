@@ -7,6 +7,7 @@ var metroRouteSchema = new Schema({
 	color: String,
 	lineName: String,
 	routes: [{
+		_id: {id:false},
 		routeName: String,
 		stops: [{
 			_id: {id:false},
